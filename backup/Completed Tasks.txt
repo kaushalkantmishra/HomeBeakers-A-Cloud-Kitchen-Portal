@@ -1,0 +1,42 @@
+@Customer Login
+@HomeChef Login
+@Staff Login 
+
+##HOME CHEF##
+
+--Food item
+@Add Food Item
+@View Food Item
+
+--Account
+@Homechef profile
+@Change Password
+@Logout
+
+
+##ADMIN##
+
+--Dashboard
+
+--Food Item
+@Add Food Item
+@View Food Item
+@Add Food Category
+@View Food Category
+
+--Users
+@View Customers
+@Add Employee
+@View Employee
+@Add Home chef
+@View Home Chef
+
+--Settings
+@Add Offer
+@View Offer
+@Add City
+@View City
+@Add Location
+@View Location
+
+

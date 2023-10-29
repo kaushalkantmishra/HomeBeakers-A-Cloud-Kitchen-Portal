@@ -1,0 +1,34 @@
+1) Customer Account
+	- Register
+	- Login
+	- Change Password
+	- Profile
+
+2) Cloud Kitchen
+	- Register
+	- Login
+	- Change Password
+	- Profile
+
+3) Dashboard
+	- Login
+	- Change Password
+	- Profile
+	- Add Staff
+	- View Staff
+
+4) Food item module
+	- Add food item
+	- View food item
+	- Add food category
+	- View food category
+
+5) Food order module
+	- Food order
+	- Order tracking
+	- Food delivery module
+
+6) Payment
+	- Billing
+	- Billing report
+	- Payment receipt

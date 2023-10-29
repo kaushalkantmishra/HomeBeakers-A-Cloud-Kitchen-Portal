@@ -1,0 +1,22 @@
+1) Link
+<a href='location.php?editid=$rs[0]' class='btn btn-info'>Edit</a>
+
+2) Select
+<?php
+if(isset($_GET['editid']))
+{
+	$sqledit = "SELECT * FROM city WHERE cityid='$_GET[editid]'";
+	$qsqledit = mysqli_query($con,$sqledit);
+	$rsedit = mysqli_fetch_array($qsqledit);
+}
+?>
+
+
+3) Display
+--For Textbox
+<input type="text" name="city" id="city" class="form-control form-control-submit" placeholder="Enter City" value="<?php echo $rsedit['city']; ?>">
+
+--For Textarea
+<textarea name="description" id="description" class="form-control form-control-submit" placeholder="Enter description"><?php echo $rsedit['description']; ?></textarea>
+
+4) Update
